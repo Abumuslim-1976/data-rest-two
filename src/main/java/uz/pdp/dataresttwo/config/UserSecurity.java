@@ -99,7 +99,8 @@ public class UserSecurity extends WebSecurityConfigurerAdapter {
 
 
     @Bean
-    PasswordEncoder passwordEncoder() {
+    PasswordEncoder passwordEncoder()
+    {
         return new BCryptPasswordEncoder();
     }
 
